@@ -6,6 +6,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.LinkedList;
 import java.util.Collections;
+import java.util.UUID;
 
 
 /**
@@ -15,6 +16,7 @@ import java.util.Collections;
  */
 public class Deck{
 
+    final UUID uuid = UUID.randomUUID();
     final int DECK_MAX_SIZE = 52;
 
     private LinkedList<Card> deck = new LinkedList<>();
