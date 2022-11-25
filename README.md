@@ -17,6 +17,7 @@ When both players have stopped drawing cards, and none have gone over 21 points,
 * Attach a database with scores and usernames
 * So much more?
 
+# Additional notes
 
 Far from done
 
